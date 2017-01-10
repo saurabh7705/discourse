@@ -193,7 +193,8 @@ module Discourse
   end
 
   def self.base_uri(default_value = "")
-    ActionController::Base.config.relative_url_root.presence || default_value
+    #ActionController::Base.config.relative_url_root.presence || default_value
+    "/discuss"
   end
 
   def self.base_protocol
