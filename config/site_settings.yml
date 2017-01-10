@@ -957,7 +957,7 @@ developer:
     hidden:
       development: false
       default: true
-    default: 'https://unacademy.com/discuss'
+    default: ''
   port:
     hidden:
       development: false

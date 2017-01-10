@@ -188,11 +188,13 @@ module Discourse
 
   # Get the current base URL for the current site
   def self.current_hostname
-    SiteSetting.force_hostname.presence || RailsMultisite::ConnectionManagement.current_hostname
+    "https://unacademy.com/discuss"
+    #SiteSetting.force_hostname.presence || RailsMultisite::ConnectionManagement.current_hostname
   end
 
   def self.base_uri(default_value = "")
-    ActionController::Base.config.relative_url_root.presence || default_value
+    #ActionController::Base.config.relative_url_root.presence || default_value
+    "/discuss"
   end
 
   def self.base_protocol
