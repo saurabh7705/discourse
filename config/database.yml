@@ -46,7 +46,7 @@ production:
   pool: 5
   timeout: 5000
   host_names:
-    - "localhost" # Update this to be the domain of your production site
+    - "52.221.228.154" # Update this to be the domain of your production site
 
 # You may be surprised production is not here, it is sourced from application.rb using a monkey patch
 # This is done for 2 reasons
