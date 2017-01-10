@@ -42,7 +42,7 @@ production:
   database: discourse_production
   username: unacademy
   password: dkfjdlkjdfkjh12kdhfkdjh23209udfkdh23dfkdflk
-  host: unacademy-qa.cdvbjpsetxhz.ap-southeast-1.rds.amazonaws.com:5432
+  host: unacademy-qa.cdvbjpsetxhz.ap-southeast-1.rds.amazonaws.com
   pool: 5
   timeout: 5000
   host_names:
