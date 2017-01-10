@@ -19,7 +19,8 @@ module Discourse
   class Application < Rails::Application
     def config.database_configuration
       if Rails.env.production?
-        GlobalSetting.database_config
+        #GlobalSetting.database_config
+        super
       else
         super
       end

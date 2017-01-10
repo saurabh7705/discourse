@@ -36,6 +36,18 @@ profile:
   host_names:
     - "localhost"
 
+production:
+  prepared_statements: false
+  adapter: postgresql
+  database: discourse_production
+  username: unacademy
+  password: dkfjdlkjdfkjh12kdhfkdjh23209udfkdh23dfkdflk
+  host: unacademy-qa.cdvbjpsetxhz.ap-southeast-1.rds.amazonaws.com:5432
+  pool: 5
+  timeout: 5000
+  host_names:
+    - "localhost" # Update this to be the domain of your production site
+
 # You may be surprised production is not here, it is sourced from application.rb using a monkey patch
 # This is done for 2 reasons
 #
